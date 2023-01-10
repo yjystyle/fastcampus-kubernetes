@@ -20,7 +20,7 @@ kubectl apply -f 01_06_deployment.yaml
 kubectl get pods
 
 # 애플리케이션 배포 개수를 조정 (replicas: 복제본)
-kubectl scale -f deployment.yaml --replicas=3
+kubectl scale -f deployment.yaml --replicas=3   
 
 # 현재 실행 중인 오브젝트 설정과 입력한 파일의 차이점 분석
 kubectl diff -f deployment.yaml
