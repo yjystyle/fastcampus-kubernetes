@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
   - name: hello-app
-    image: yoonjeong/hello-app:1.0
+    image: yoonjeong/hello-app:1.0-
     ports:
     - containerPort: 8080
     env:
